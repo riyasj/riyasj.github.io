@@ -1,0 +1,36 @@
+/*! Place your custom styles here */
+
+.bar .logo {
+
+    max-height: 6.8em;
+    max-width: none;
+
+}
+a.menu{
+	font-weight: bold !important;
+	color: #F1E979 !important;
+	opacity: 1 !important;
+}
+div.index_elements{
+	margin-top: 6.143em !important;
+}
+section.cla_val{
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+img.clients{
+	height: 155px;
+	width: 250px;
+}
+section.clients_section{
+	padding-top: 2.429em !important;
+	padding-bottom: 3.429em !important;
+}
+section.banner{
+	padding-top: 10.857em !important;
+	padding-bottom: 10.857em !important;
+}
+section.about{
+	padding-top: 1.429em;
+	padding-bottom: 2.429em;
+}
