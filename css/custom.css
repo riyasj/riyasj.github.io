@@ -34,3 +34,14 @@ section.about{
 	padding-top: 1.429em;
 	padding-bottom: 2.429em;
 }
+img.logo{
+	margin: -17px 0 -8px 0 !important;
+}
+ul.menu-horizontal{
+	margin: 15px 0 10px 0 !important;
+}
+p.lead{
+	font-size: 16px;
+line-height: 25px;
+text-align: justify;
+}
