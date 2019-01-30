@@ -23,7 +23,7 @@ img.clients{
 	width: 250px;
 }
 section.clients_section{
-	padding-top: 2.429em !important;
+	padding-top: 1.429em !important;
 	padding-bottom: 3.429em !important;
 }
 section.banner{
@@ -44,4 +44,8 @@ p.lead{
 	font-size: 16px;
 line-height: 25px;
 text-align: justify;
+}
+section.index_section{
+	padding-top: 3.429em !important;
+	padding-bottom: 3.429em !important;
 }
