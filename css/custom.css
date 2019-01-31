@@ -49,3 +49,10 @@ section.index_section{
 	padding-top: 3.429em !important;
 	padding-bottom: 3.429em !important;
 }
+h3.cla_val{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+section.second_index{
+	padding-bottom: 2.429em !important;
+}
