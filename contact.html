@@ -104,26 +104,26 @@
                         <div class="col-lg-6 col-md-7 col-12">
                             <div class="row">
                                 <div class="boxed boxed--border">
-                                    <form class="text-left form-email row" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                                    <form class="text-left form-email row" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly."  method="post" action="email.php">
                                         <div class="col-md-6">
                                             <span>Name:</span>
-                                            <input type="text" name="name" class="validate-required" />
+                                            <input type="text" name="name" class="validate-required" id="id_name"/>
                                         </div>
                                         <div class="col-md-6">
                                             <span>Company:</span>
-                                            <input type="text" name="company" class="validate-required" />
+                                            <input type="text" name="company" id="id_company" />
                                         </div>
                                         <div class="col-md-6">
                                             <span>Email Address:</span>
-                                            <input type="email" name="email" class="validate-required validate-email" />
+                                            <input type="email" name="email" class="validate-required validate-email" id="id_email" />
                                         </div>
                                         <div class="col-md-6">
                                             <span>Phone:</span>
-                                            <input type="tel" name="phone" class="validate-required" />
+                                            <input type="tel" name="phone" class="validate-required" id="id_phone" />
                                         </div>
                                         <div class="col-md-12">
-                                            <span>About Project:</span>
-                                            <textarea rows="5" name="description" class="validate-required"></textarea>
+                                            <span>Message:</span>
+                                            <textarea rows="5" name="message" class="validate-required" id="id_message"></textarea>
                                         </div>
                                         
                                         <div class="col-md-12 boxed">
@@ -142,9 +142,9 @@
                                 <p class="lead">
                                     E:
                                     <a href="#">sales@biconbay.com</a><br>
-                                    <a href="">Info@biconbay.com</a>
+                                    E: <a href="#">Info@biconbay.com</a>
                                     <br /> P: +9714 <br />
-                                    W: www.biconbay.com
+                                    W: <a href="http://www.biconbay.com">www.biconbay.com</a>
                                 </p>
                                 <p class="lead">
                                     B2B Tower,

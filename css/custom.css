@@ -52,10 +52,18 @@ section.index_section{
 h3.cla_val{
 	margin-bottom: 10px;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 section.second_index{
 	padding-bottom: 2.429em !important;
 }
 h1.cla_val{
 	font-weight: bold;
+}
+img.products{
+	height: 290px;
+	width: 290px;
+}
+img.index_image{
+	height: 245px;
 }
